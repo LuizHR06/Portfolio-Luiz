@@ -4,7 +4,7 @@
 }
 
 .home .texto-home {
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .home .texto-home, .home .img-home {
@@ -40,7 +40,7 @@
 
 .home .texto-home p {
     font-family: var(--fonte-secundaria);
-    font-size: var(--fonte-grande);
+    font-size: var(--fonte-gigante);
     margin-bottom: 10px;
 }
 
@@ -53,7 +53,19 @@
 
 .home .texto-home h2 {
     font-family: var(--fonte-secundaria);
-    font-size: var(--fonte-grande);
+    font-size: var(--fonte-extra-gigante);
     letter-spacing: 2px;
     margin-bottom: 30px;
+}
+
+@media(min-width: 320px) {
+    .home .texto-home h2 {
+        font-size: var(--fonte-gigante);
+    }
+}
+
+@media(min-width: 1440px) {
+    .home .texto-home h2 {
+        font-size: var(--fonte-extra-gigante);
+    }
 }

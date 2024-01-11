@@ -1,7 +1,7 @@
 /* PROJETOS */
 .projetos .container-projetos {
     display: grid;        
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
     margin: 0 auto;
     grid-gap: 20px;       
 }
@@ -18,7 +18,8 @@
     -moz-transition: all .3s ease;
     -o-transition: all .3s ease;
     -webkit-transition: all .3s ease;
-    position: relative;            
+    position: relative;   
+    height: 100%;       
 }
 
 .projetos .container-projetos .projeto:hover,
@@ -52,7 +53,7 @@
 }
 
 .projetos .container-projetos .projeto h3 {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 500;    
     position: absolute;      
     opacity: 0.7;
